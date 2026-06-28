@@ -67,7 +67,7 @@ export default function Profile() {
 
 
     const response = await fetch(
-      "http://localhost:8000/profile",
+      "https://ai-triage-mvp-1.onrender.com/profile",
       {
         method:"POST",
         headers:{
