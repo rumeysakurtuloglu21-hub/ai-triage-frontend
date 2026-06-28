@@ -37,7 +37,7 @@ export default function PrescriptionRequest() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("http://localhost:8000/prescription-request", {
+    fetch("https://ai-triage-mvp-1.onrender.com/prescription-request", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(form)
