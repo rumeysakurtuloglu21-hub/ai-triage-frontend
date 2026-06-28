@@ -27,7 +27,7 @@ export default function Register() {
   try {
 
     const response = await fetch(
-      "http://localhost:8000/register",
+      "https://ai-triage-mvp-1.onrender.com/register",
       {
         method: "POST",
         headers: {
