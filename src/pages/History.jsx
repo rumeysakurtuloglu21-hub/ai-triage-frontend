@@ -17,7 +17,7 @@ export default function History() {
 
 
         const response = await fetch(
-          "http://localhost:8000/triage/history",
+          "https://ai-triage-mvp-1.onrender.com/triage/history",
           {
             headers: {
               Authorization: `Bearer ${token}`,
