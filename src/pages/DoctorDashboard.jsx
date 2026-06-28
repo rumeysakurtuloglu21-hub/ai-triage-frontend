@@ -18,7 +18,7 @@ export default function DoctorDashboard() {
 
 
         const response = await fetch(
-          "http://localhost:8000/doctor/requests",
+          `https://ai-triage-mvp-1.onrender.com/doctor/request/${id}`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
