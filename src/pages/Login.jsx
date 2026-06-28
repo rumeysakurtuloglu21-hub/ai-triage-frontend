@@ -21,7 +21,7 @@ export default function Login() {
   try {
 
     const response = await fetch(
-      "http://localhost:8000/login",
+      "https://ai-triage-mvp-1.onrender.com/triage/login",
       {
         method: "POST",
         headers: {
