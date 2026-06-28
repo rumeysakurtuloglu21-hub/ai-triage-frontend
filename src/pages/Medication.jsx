@@ -151,7 +151,7 @@ export default function Medication() {
 
 
     const response = await fetch(
-      "http://localhost:8000/medications",
+      "https://ai-triage-mvp-1.onrender.com/triage/medications",
       {
         method:"POST",
         headers:{
