@@ -57,7 +57,7 @@ const analyze = async () => {
   setResult(null);
 
   try {
-    const response = await fetch("http://localhost:8000/triage", {
+    const response = await fetch("https://ai-triage-mvp-1.onrender.com/triage"{
       // Backend adresi belli olunca burayı değiştir
       method: "POST",
       headers: {
