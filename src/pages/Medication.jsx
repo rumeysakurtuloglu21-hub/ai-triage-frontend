@@ -38,7 +38,7 @@ export default function Medication() {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://localhost:8000/medications",
+        "https://ai-triage-mvp-1.onrender.com/medications",
         {
           headers:{
             Authorization:`Bearer ${token}`
